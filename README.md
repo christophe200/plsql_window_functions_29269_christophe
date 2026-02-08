@@ -25,7 +25,7 @@ Identify top products per region using RANK()
 Calculate running total of sales over time using SUM() OVER()
 ![Image AET](https://github.com/christophe200/plsql_window_functions_29269_christophe/blob/d230de2e4d710ebc4d6aef059ac1854baf6aea09/screenshots/sum%20over.PNG)
 Compare current sales with previous sales periods using LAG()
-
+![Image AET](https://github.com/christophe200/plsql_window_functions_29269_christophe/blob/f494f1c971064ac24a996b715496d70ad78eac76/screenshots/lag.PNG)
 Segment customers into four spending groups using NTILE(4)
 
 Calculate three-period moving averages using AVG() OVER()
