@@ -29,7 +29,7 @@ Compare current sales with previous sales periods using LAG()
 Segment customers into four spending groups using NTILE(4)
 
 Calculate three-period moving averages using AVG() OVER()
-
+![Image AET](https://github.com/christophe200/plsql_window_functions_29269_christophe/blob/61ac3f521689750536d3b767fc7dd2d774271139/screenshots/avg%20over.PNG)
 4.**DATABASE SCHEMA DESIGN**
 
 The database consists of three related tables:
