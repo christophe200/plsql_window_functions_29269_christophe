@@ -74,7 +74,7 @@ SELECT c.customer_id, c.customer_name
 FROM customers c
 LEFT JOIN sales s ON c.customer_id = s.customer_id
 WHERE s.sale_id IS NULL;
-
+![Image AET] (https://github.com/christophe200/plsql_window_functions_29269_christophe/blob/e0b604f97ce1d48e39f694436eca93a2249998f6/screenshots/left%20join.PNG)
 
 **BUSINESS INTERPRETATION**:
 This query helps identify inactive customers.
