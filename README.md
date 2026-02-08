@@ -33,12 +33,18 @@ Calculate three-period moving averages using AVG() OVER()
 4.**DATABASE SCHEMA DESIGN**
 
 The database consists of three related tables:
-
-customers: stores customer details
-
-products: stores product information
-
-sales: stores sales transactions
+customer_id (PK)
+customer_name
+region
+product_id (PK)
+product_name
+price
+sale_id (PK)
+customer_id (FK)
+product_id (FK)
+sale_date
+quantity
+total_amount
 
 Each sale links one customer to one product.
 The sales table contains foreign keys referencing both customers and products.
