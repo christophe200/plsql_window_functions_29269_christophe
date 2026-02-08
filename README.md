@@ -88,6 +88,7 @@ SELECT p.product_id, p.product_name
 FROM sales s
 RIGHT JOIN products p ON s.product_id = p.product_id
 WHERE s.sale_id IS NULL;
+![Image AET](https://github.com/christophe200/plsql_window_functions_29269_christophe/blob/284324d817b1cb525b5e7eb90b368af7c32e89da/screenshots/right%20join.PNG)
 
 
 **BUSINESS INTERPRETATION**:
