@@ -23,7 +23,7 @@ The analysis aims to achieve the following measurable goals:
 Identify top products per region using RANK()
 ![Image AET](https://github.com/christophe200/plsql_window_functions_29269_christophe/blob/2e100c1ff34cb4c56750a49c6689f93f622541b1/screenshots/rank.PNG)
 Calculate running total of sales over time using SUM() OVER()
-
+![Image AET](https://github.com/christophe200/plsql_window_functions_29269_christophe/blob/d230de2e4d710ebc4d6aef059ac1854baf6aea09/screenshots/sum%20over.PNG)
 Compare current sales with previous sales periods using LAG()
 
 Segment customers into four spending groups using NTILE(4)
