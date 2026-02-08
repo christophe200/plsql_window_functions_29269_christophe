@@ -103,7 +103,7 @@ SELECT c.customer_name, p.product_name
 FROM customers c
 FULL OUTER JOIN products p
 ON c.customer_id = p.product_id;
-
+![Image AET](https://github.com/christophe200/plsql_window_functions_29269_christophe/blob/c296b5ef90d0f0bb31b03193595b705e1e3409ce/screenshots/fullout%20join.PNG)
 
 **BUSINESS INTERPRETATION**:
 This query provides a complete overview of customers and products.
