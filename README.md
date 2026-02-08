@@ -49,7 +49,7 @@ total_amount
 Each sale links one customer to one product.
 The sales table contains foreign keys referencing both customers and products.
 
-(Insert ER Diagram screenshot here)
+![Image AET](https://github.com/christophe200/plsql_window_functions_29269_christophe/blob/aced55b6a10292ff2f741a1ee01c9d3e2e72eef3/screenshots/er%20digram.PNG)
 
 5. Part A – SQL JOINs Implementation
 5.1 **INNER JOIN**
