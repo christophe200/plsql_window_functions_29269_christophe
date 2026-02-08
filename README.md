@@ -60,7 +60,7 @@ SELECT s.sale_id, c.customer_name, p.product_name, s.sale_date, s.total_amount
 FROM sales s
 INNER JOIN customers c ON s.customer_id = c.customer_id
 INNER JOIN products p ON s.product_id = p.product_id;
-
+![Image AET](https://github.com/christophe200/plsql_window_functions_29269_christophe/blob/9dc8b6c25fd06b2a06445df002a8508569aa7a9b/screenshots/inner%20join.PNG)
 
 **BUSINESS INTERPRETATION**:
 This query displays all valid sales transactions.
